@@ -1,0 +1,182 @@
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 1
+Enter CSV file path: C:\Users\abc\Music\ak\Titanic_Survival_Analysis\Retail_Sales_Analyzer\retail_sales.csv
+
+Dataset loaded successfully!
+Total records: 15
+
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 2
+
+----- SALES METRICS -----
+Total Sales: Rs. 551400.00
+Average Sale: Rs. 36760.00
+Most Popular Product: Mouse
+Highest Sale: Rs. 150000.00
+Lowest Sale: Rs. 4000.00
+
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 3
+
+1. Filter by Category
+2. Filter by Date Range
+Enter choice: 1
+Categories: <ArrowStringArray>
+['Electronics', 'Accessories', 'Furniture']
+Length: 3, dtype: str
+Enter category: 2
+No matching records found.
+
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 4
+
+----- DATA SUMMARY -----
+
+First 5 Records:
+        Date  ... Total Sales
+0 2026-01-01  ...      100000
+1 2026-01-02  ...        5000
+2 2026-01-03  ...        6000
+3 2026-01-04  ...       60000
+4 2026-01-05  ...       12000
+
+[5 rows x 6 columns]
+
+Dataset Shape: (15, 6)
+
+Column Information:
+<class 'pandas.DataFrame'>
+RangeIndex: 15 entries, 0 to 14
+Data columns (total 6 columns):
+ #   Column         Non-Null Count  Dtype         
+---  ------         --------------  -----         
+ 0   Date           15 non-null     datetime64[us]
+ 1   Product        15 non-null     str           
+ 2   Category       15 non-null     str           
+ 3   Price          15 non-null     int64         
+ 4   Quantity Sold  15 non-null     int64         
+ 5   Total Sales    15 non-null     int64         
+dtypes: datetime64[us](1), int64(3), str(2)
+memory usage: 1.1 KB
+
+Missing Values:
+Date             0
+Product          0
+Category         0
+Price            0
+Quantity Sold    0
+Total Sales      0
+dtype: int64
+
+Descriptive Statistics:
+                      Date         Price  Quantity Sold    Total Sales
+count                   15     15.000000      15.000000      15.000000
+mean   2026-01-08 00:00:00  15593.333333       4.466667   36760.000000
+min    2026-01-01 00:00:00    500.000000       1.000000    4000.000000
+25%    2026-01-04 12:00:00   1200.000000       2.000000    6500.000000
+50%    2026-01-08 00:00:00   7000.000000       3.000000   12000.000000
+75%    2026-01-11 12:00:00  20000.000000       6.000000   55000.000000
+max    2026-01-15 00:00:00  50000.000000      12.000000  150000.000000
+std                    NaN  19221.173841       3.335238   43902.567449
+
+Sales by Category:
+Category
+Accessories     29400
+Electronics    480000
+Furniture       42000
+Name: Total Sales, dtype: int64
+
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 5
+
+Missing values before cleaning:
+Date             0
+Product          0
+Category         0
+Price            0
+Quantity Sold    0
+Total Sales      0
+dtype: int64
+
+Missing values handled.
+Date             0
+Product          0
+Category         0
+Price            0
+Quantity Sold    0
+Total Sales      0
+dtype: int64
+
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 6
+
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 7
+Chart saved at: C:\Users\abc\Music\ak\Titanic_Survival_Analysis\output\sales_chart.png
+
+===== RETAIL SALES DATA ANALYZER =====
+1. Load Dataset
+2. Calculate Sales Metrics
+3. Filter Sales Data
+4. Display Summary
+5. Handle Missing Data
+6. Generate Visualizations
+7. Save Visualization
+8. Exit
+Enter your choice: 8
